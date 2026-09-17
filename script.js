@@ -1,4 +1,4 @@
-function user(){
+function RANDOMuser(){
     
 fetch("https://randomuser.me/api/?results=5")
 .then((raw)=>{
@@ -34,10 +34,10 @@ main.append(div);
 })
 });
 };
-user();
+RANDOMuser();
 let btn=document.querySelector("button");
 btn.addEventListener("click",function(){
-    user();
+    RANDOMuser();
 })
 
 
