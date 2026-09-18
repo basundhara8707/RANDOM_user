@@ -1,6 +1,6 @@
 function RANDOMuser(){
     
-fetch("https://randomuser.me/api/?results=5")
+fetch("https://randomuser.me/api/?results=11")
 .then((raw)=>{
      return raw.json();}
     )
